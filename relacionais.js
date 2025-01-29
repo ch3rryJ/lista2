@@ -54,7 +54,7 @@ let conta = 500
 let saque = 200
 
 let suficiente = conta - saque
-let situacao = suficiente > 0
+let situacao = suficiente > 100
 
 console.log(suficiente)
 console.log(situacao)
