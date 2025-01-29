@@ -53,8 +53,10 @@ console.log("atv6")
 let conta = 500
 let saque = 200
 
+let total = conta > saque
+
 let suficiente = conta - saque
 let situacao = suficiente > 100
 
-console.log(suficiente)
+console.log(total)
 console.log(situacao)
